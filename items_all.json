@@ -1,0 +1,962 @@
+[
+  {
+    "item_id": "IT0006",
+    "group": "grounded",
+    "vignette": "L'immagine mostra un tracciato elettrocardiografico corrispondente a:",
+    "options": {
+      "A": "Infarto miocardico della parete posteriore",
+      "B": "Fibrillazione atriale",
+      "C": "Infarto miocardico della parete anteriore",
+      "D": "Infarto miocardico della parete inferiore",
+      "E": "Blocco atrioventricolare di terzo grado"
+    },
+    "correct": "C",
+    "image_file": "IT0006.PNG",
+    "image_path": "data\\images\\image_IT0006.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0007",
+    "group": "grounded",
+    "vignette": "Il paziente presenterà probabilmente:",
+    "options": {
+      "A": "Occlusione della circonflessa",
+      "B": "Sintomi da attivazione vagale",
+      "C": "Occlusione della discendente anteriore",
+      "D": "Occlusione della discendente posteriore",
+      "E": "Pneumotorace"
+    },
+    "correct": "C",
+    "image_file": "IT0006.PNG",
+    "image_path": "data\\images\\image_IT0007.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0031",
+    "group": "matched",
+    "vignette": "[Paziente uomo di 85 anni, pregresso ictus ischemico, diabetico, in terapia polifarmacologica. Da circa un mese comparsa di placche eritematose orticarioidi diffuse con successiva comparsa di bolle tese a contenuto limpido. Le lesioni sono intensamente pruriginose.] Qual è la diagnosi più probabile?",
+    "options": {
+      "A": "Pemfigoide bolloso",
+      "B": "Pemfigo volgare",
+      "C": "Herpes Zoster",
+      "D": "Dermatite da contatto",
+      "E": "Impetigine bollosa"
+    },
+    "correct": "A",
+    "image_file": "IT031.PNG",
+    "image_path": "data\\images\\image_IT0031.png",
+    "domain": "Dermatology"
+  },
+  {
+    "item_id": "IT0032",
+    "group": "unstable",
+    "vignette": "[Paziente uomo di 85 anni, pregresso ictus ischemico, diabetico, in terapia polifarmacologica. Da circa un mese comparsa di placche eritematose orticarioidi diffuse con successiva comparsa di bolle tese a contenuto limpido. Le lesioni sono intensamente pruriginose.] Qual è il procedimento diagnostico più appropriato?",
+    "options": {
+      "A": "Ricerca di anticorpi circolanti anti gliadina e antitranglutaminasi IgA ed IgG",
+      "B": "Biopsia cutanea per istologia e immunofluorescenza diretta, ricerca degli anticorpi anti-membrana basale",
+      "C": "Dermatoscopia della bolla dopo rimozione del tetto",
+      "D": "Esame citodiagnostico di Tzank da contenuto della bolla",
+      "E": "Biopsia cutanea per istologia e immunofluorescenza diretta, ricerca degli anticorpi anti-desmogleina 1 e anti-desmogleina 3"
+    },
+    "correct": "B",
+    "image_file": "IT031.PNG",
+    "image_path": "data\\images\\image_IT0032.png",
+    "domain": "Dermatology"
+  },
+  {
+    "item_id": "IT0053",
+    "group": "matched",
+    "vignette": "[In uno studio caso-controllo per comprendere l'eziologia del cancro dell'esofago, 870 casi e 902 controlli sono stati indagati per quanto concerne il consumo abituale di superalcolici.] L'associazione tra la malattia e il fattore di rischio può essere quantificata calcolando:",
+    "options": {
+      "A": "RA: (656 - 214) / 1772",
+      "B": "RR: (656 / 1172) / (214 / 600)",
+      "C": "OR: (656 · 386) / (516 · 214)",
+      "D": "OR: 656/386",
+      "E": "RA: (656 / 1172) - (214 / 600)"
+    },
+    "correct": "C",
+    "image_file": "IT053.png",
+    "image_path": "data\\images\\image_IT0053.png",
+    "domain": NaN
+  },
+  {
+    "item_id": "IT0054",
+    "group": "matched",
+    "vignette": "[In uno studio caso-controllo per comprendere l'eziologia del cancro dell'esofago, 870 casi e 902 controlli sono stati indagati per quanto concerne il consumo abituale di superalcolici.] È generalmente indicato tra i vantaggi degli studi caso-controllo:",
+    "options": {
+      "A": "Il relativo basso costo e la breve durata",
+      "B": "La possibilità di calcolare l'incidenza periodale della malattia considerata",
+      "C": "La possibilità di calcolare la prevalenza puntuale della malattia considerata",
+      "D": "La possibilità di calcolare la prevalenza periodale della malattia considerata",
+      "E": "La possibilità di calcolare l'incidenza della malattia considerata"
+    },
+    "correct": "A",
+    "image_file": "IT053.png",
+    "image_path": "data\\images\\image_IT0054.png",
+    "domain": NaN
+  },
+  {
+    "item_id": "IT0063",
+    "group": "unstable",
+    "vignette": "[Uomo, 48 anni, fumatore, iperteso in terapia con ACE inibitore. Lamenta dolore epigastrico da circa 6h. Vengono rilevati i seguenti parametri PA 90/50 mmHg, FC 57/min, satO2 99% e viene eseguito un ECG come mostrato in figura.] Le alterazioni presenti sono compatibili con:",
+    "options": {
+      "A": "STEMI antero-laterale",
+      "B": "Pericardite",
+      "C": "STEMI inferiore",
+      "D": "Probabile infarto anteriore pregresso",
+      "E": "STEMI anteriore"
+    },
+    "correct": "C",
+    "image_file": "IT063.png",
+    "image_path": "data\\images\\image_IT0063.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0064",
+    "group": "matched",
+    "vignette": "[Uomo, 48 anni, fumatore, iperteso in terapia con ACE inibitore. Lamenta dolore epigastrico da circa 6h. Vengono rilevati i seguenti parametri PA 90/50 mmHg, FC 57/min, satO2 99% e viene eseguito un ECG come mostrato in figura.] Mentre si allerta la sala di emodinamica è opportuno iniziare la somministrazione di:",
+    "options": {
+      "A": "Nitroprussiato di sodio",
+      "B": "Diltiazem",
+      "C": "Warfarin",
+      "D": "Ticagrelor",
+      "E": "Enalapril"
+    },
+    "correct": "D",
+    "image_file": "IT063.png",
+    "image_path": "data\\images\\image_IT0064.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0065",
+    "group": "matched",
+    "vignette": "[Uomo, 48 anni, fumatore, iperteso in terapia con ACE inibitore. Lamenta dolore epigastrico da circa 6h. Vengono rilevati i seguenti parametri PA 90/50 mmHg, FC 57/min, satO2 99% e viene eseguito un ECG come mostrato in figura.] Verosimilmente il paziente avrà una lesione a carico di:",
+    "options": {
+      "A": "Coronaria destra",
+      "B": "Ramo del margine ottuso",
+      "C": "Coronaria sinistra",
+      "D": "Tronco comune",
+      "E": "Discendente anteriore"
+    },
+    "correct": "A",
+    "image_file": "IT0063.png",
+    "image_path": "data\\images\\image_IT0065.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0095",
+    "group": "matched",
+    "vignette": "[Un ragazzo di 23 anni è vittima di un incidente automobilistico (moto contro auto). All'arrivo dei soccorsi viene riferito il seguente esame obiettivo neurologico: il paziente giace a occhi chiusi, non li apre né allo stimolo verbale né allo stimolo doloroso, eloquio assente, alla stimolazione algica il paziente tende ad allontanare gli arti dalla fonte dello stimolo. Presenta anisocoria per destra > sinistra.] Il paziente viene trasferito presso il Pronto Soccorso dove viene sottoposto a una TC cerebrale. Quale reperto è verosimilmente apprezzabile alla TC?",
+    "options": {
+      "A": "Ematoma intraparenchimale",
+      "B": "Ematoma sottodurale cronico",
+      "C": "Ematoma epidurale",
+      "D": "Ematoma sottodurale acuto",
+      "E": "Ematoma subgaleale"
+    },
+    "correct": "C",
+    "image_file": "IT095.png",
+    "image_path": "data\\images\\image_IT0095.png",
+    "domain": "Neurology"
+  },
+  {
+    "item_id": "IT0111",
+    "group": "unstable",
+    "vignette": "[Un uomo di 37 anni si presenta al Pronto Soccorso per intensa sintomatologia algica al livello della spalla destra. Il paziente riferisce caduta accidentale sul palmo della mano con la spalla atteggiata in modica abduzione ed estensione.] Dopo la valutazione dell'esame radiografico, quale diagnosi si sospetta?",
+    "options": {
+      "A": "Frattura del trochite",
+      "B": "Lussazione anteriore dell'articolazione gleno-omerale",
+      "C": "Lussazione dell'articolazione acromion-claveare",
+      "D": "Frattura della cavità glenoide",
+      "E": "Lussazione posteriore dell'articolazione gleno-omerale"
+    },
+    "correct": "B",
+    "image_file": "IT111.png",
+    "image_path": "data\\images\\image_IT0111.png",
+    "domain": "Emergency medicine"
+  },
+  {
+    "item_id": "IT0130",
+    "group": "grounded",
+    "vignette": "[Paziente di 45 anni esegue indagine Risonanza Magnetica della colonna lombare per lombalgia da 2 mesi non responsiva ai farmaci antifiammatori.] L'immagine mostra una RM del rachide lombare su quale dei tre piani anatomici?",
+    "options": {
+      "A": "Piano sagittale puro",
+      "B": "Piano coronale puro",
+      "C": "Piano assiale puro",
+      "D": "Piano sagittale obliquo per lo studio dei peduncoli",
+      "E": "Piano sagittale obliquo per lo studio dei forami di coniugazione"
+    },
+    "correct": "A",
+    "image_file": "IT130.png",
+    "image_path": "data\\images\\image_IT0130.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0131",
+    "group": "matched",
+    "vignette": "[Paziente di 45 anni esegue indagine Risonanza Magnetica della colonna lombare per lombalgia da 2 mesi non responsiva ai farmaci antifiammatori.] Nella RM si rileva una probabile metastasi ossea. Quale indagine è la più appropriata per identificare la presenza di metastasi ossee?",
+    "options": {
+      "A": "Scintigrafia ossea",
+      "B": "TC del rachide in toto",
+      "C": "TC dello scheletro in toto con mezzo di contrasto",
+      "D": "Esame ecografico selettivo delle regioni scheletriche sospette",
+      "E": "TC con protocollo a bassa dose di tutto lo scheletro"
+    },
+    "correct": "A",
+    "image_file": "IT130.png",
+    "image_path": "data\\images\\image_IT0131.png",
+    "domain": "Oncology"
+  },
+  {
+    "item_id": "IT0136",
+    "group": "matched",
+    "vignette": "[Una donna di 19 anni presenta addominalgia e diarrea postprandiali ed esegue una esofagogastroduodenoscopia nel sospetto di un malassorbimento.] Che cosa si può dedurre dall'immagine?",
+    "options": {
+      "A": "Sono presenti fistole e ascessi",
+      "B": "È presente una atrofia della mucosa",
+      "C": "È presente una neoformazione",
+      "D": "È presente sanguinamento della mucosa",
+      "E": "È presente un'ulcera della mucosa"
+    },
+    "correct": "B",
+    "image_file": "IT136.png",
+    "image_path": "data\\images\\image_IT0136.png",
+    "domain": "Gastroenterology"
+  },
+  {
+    "item_id": "IT0169",
+    "group": "matched",
+    "vignette": "[Una donna di 45 anni presenta lesioni eritemato-ipercheratosiche non dolenti, di forma nummulare, a livello della regione scapolare. Si associano lesioni ipercheratosiche [01] con chiazza di alopecia cicatriziale [02] a livello del vertice del cuoio capelluto. Le lesioni del tronco, di vecchia data, tendono anch'esse all'atrofia cicatriziale e a lasciare esiti iperpigmentari soprattutto periferici. Tutte le lesioni tendono al peggioramento dopo l'esposizione solare.] Qual è la terapia più indicata per questa paziente?",
+    "options": {
+      "A": "Fototerapia nbUVB",
+      "B": "Idrossiclorochina",
+      "C": "Calcipotriolo topico",
+      "D": "Penicillina",
+      "E": "Antimicotici orali"
+    },
+    "correct": "B",
+    "image_file": "IT169.png",
+    "image_path": "data\\images\\image_IT0169.png",
+    "domain": "Dermatology"
+  },
+  {
+    "item_id": "IT0198",
+    "group": "matched",
+    "vignette": "[Una donna di 22 anni si sottopone a biopsia intestinale dopo un'iniziale valutazione clinica e laboratoristica. L'esame istologico dimostra appiattimento dei villi, iperplasia delle cripte, incremento dei linfociti intraepiteliali, come illustrato nella figura.] Con quale delle seguenti malattie può essere compatibile il reperto istologico?",
+    "options": {
+      "A": "Malattia di Whipple",
+      "B": "Malattia di Crohn",
+      "C": "Malattia celiaca",
+      "D": "Sensibilità al Glutine Non-Celiaca",
+      "E": "Tumore neuroendocrino dell'intestino tenue"
+    },
+    "correct": "C",
+    "image_file": "IT0200.png",
+    "image_path": "data\\images\\image_IT0198.png",
+    "domain": "Gastroenterology"
+  },
+  {
+    "item_id": "IT0200",
+    "group": "wrong_both",
+    "vignette": "[Un paziente di 65 anni deve essere sottoposto a colecistectomia. In regime di prericovero ha eseguito un controllo radiologico del torace.] L'immagine radiologica mostrata in figura è in prima istanza compatibile con:",
+    "options": {
+      "A": "Tubercolosi miliare",
+      "B": "Metastasi polmonari",
+      "C": "Polmonite a focolai multipli",
+      "D": "Atelettasie",
+      "E": "Ombra degli elettrodi per elettrocardiogramma"
+    },
+    "correct": "B",
+    "image_file": "IT0202.png",
+    "image_path": "data\\images\\image_IT0200.png",
+    "domain": "Oncology"
+  },
+  {
+    "item_id": "IT0213",
+    "group": "grounded",
+    "vignette": "[Un medico di Pronto Soccorso sta valutando un uomo di 54 anni che lamenta dolore retrosternale.] Il dolore non migliora e improvvisamente il paziente perde coscienza. Nella figura il ritmo presente a monitor è:",
+    "options": {
+      "A": "Tachicardia sopraventricolare",
+      "B": "Tachicardia ventricolare polimorfa",
+      "C": "Tachicardia ventricolare monomorfa",
+      "D": "Fibrillazione atriale",
+      "E": "Fibrillazione ventricolare"
+    },
+    "correct": "B",
+    "image_file": "IT0215.png",
+    "image_path": "data\\images\\image_IT0213.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0214",
+    "group": "matched",
+    "vignette": "[Un medico di Pronto Soccorso sta valutando un uomo di 54 anni che lamenta dolore retrosternale.] Il dolore non migliora e improvvisamente il paziente perde coscienza. Il trattamento di prima scelta è:",
+    "options": {
+      "A": "Defibrillazione",
+      "B": "Lidocaina ev",
+      "C": "Espansione volemica",
+      "D": "Manovre vagali",
+      "E": "Adrenalina"
+    },
+    "correct": "A",
+    "image_file": "IT0215.png",
+    "image_path": "data\\images\\image_IT0214.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0229",
+    "group": "unstable",
+    "vignette": "[Il 13 agosto del 2011, alle ore 20, in Sicilia, un medico legale viene contattato dal Pubblico Ministero in quanto avvisato dalle forze dell'ordine del ritrovamento di un cadavere presso il domicilio dello stesso. Giunto sul luogo, il medico legale viene informato dalla polizia che, a causa dell'odore acre presente nell'appartamento, si era proceduto ad apertura delle finestre di tutte le stanze della casa. Si iniziano le operazioni di sopralluogo, il cadavere si presenta come in figura.] Alla luce dell'immagine allegata e dei dati riportati, considerando una completa risoluzione della rigidità, si può stimare in via preliminare che siano trascorsi:",
+    "options": {
+      "A": "Circa 3-5 giorni dal decesso",
+      "B": "Meno di 24 ore dal decesso",
+      "C": "Circa un anno dal decesso",
+      "D": "Circa un mese dal decesso",
+      "E": "Circa tre mesi dal decesso"
+    },
+    "correct": "A",
+    "image_file": "IT0231.png",
+    "image_path": "data\\images\\image_IT0229.png",
+    "domain": "Medical toxicology"
+  },
+  {
+    "item_id": "IT0235",
+    "group": "matched",
+    "vignette": "[Un uomo di 65 anni presenta insorgenza, in pieno benessere, di cefalea e vomito, seguiti dalla comparsa di afasia ed emiparesi destra. Viene quindi accompagnato in Pronto Soccorso; i familiari riferiscono in anamnesi ipertensione ed etilismo con associata cirrosi epatica. Alla visita il medico trova il paziente soporoso, risvegliabile alla chiamata, afasico globale ed emiplegico a destra. Si prende visione della TC encefalo senza mezzo di contrasto che nel frattempo è stata richiesta (si veda immagine).] Qual è la diagnosi più probabile?",
+    "options": {
+      "A": "Ematoma epidurale destro",
+      "B": "Ematoma parieto-occipitale sottodurale acuto sinistro",
+      "C": "Emorragia intraparenchimale spontanea fronto-parietale sinistra",
+      "D": "Ictus ischemico destro",
+      "E": "Emorragia subaracnoidea da rottura di aneurisma dell'arteria comunicante anteriore"
+    },
+    "correct": "C",
+    "image_file": "IT0237.PNG",
+    "image_path": "data\\images\\image_IT0235.png",
+    "domain": "Neurology"
+  },
+  {
+    "item_id": "IT0236",
+    "group": "matched",
+    "vignette": "[Una donna di 76 anni riferisce di sentire, da alcuni mesi, il braccio di destra più debole; tale disturbo sembra avere un andamento peggiorativo. Nelle ultime settimane sarebbero inoltre comparse delle difficoltà nell'eloquio. La paziente si reca quindi dal neurologo che riscontra un deficit stenico all'arto superiore di destra e una afasia espressiva. Consiglia quindi l'esecuzione di una RM encefalo con mezzo di contrasto. Tale esame evidenzia la presenza di una lesione espansiva verosimilmente extra-assiale a livello frontale destro, captante vivacemente e omogeneamente contrasto, associata a ispessimento della dura madre perilesionale (tail durale) (si veda immagine).] Qual è la diagnosi più probabile?",
+    "options": {
+      "A": "Meningioma della convessità frontale sinistra",
+      "B": "Glioma frontale sinistro di alto grado",
+      "C": "Metastasi temporale destra da carcinoma mammario",
+      "D": "Ematoma sottodurale acuto fronto-parietale sinistro",
+      "E": "Emorragia intraparenchimale spontanea frontale destra"
+    },
+    "correct": "A",
+    "image_file": "IT0238.PNG",
+    "image_path": "data\\images\\image_IT0236.png",
+    "domain": "Oncology"
+  },
+  {
+    "item_id": "IT0250",
+    "group": "matched",
+    "vignette": "[Un ragazzo di 19 anni presenta un intenso dolore a livello della coscia, prevalentemente notturno, che regredisce dopo la somministrazione di acido acetilsalicilico.] Quale neoformazione è sospettabile con questo quadro clinico-radiologico?",
+    "options": {
+      "A": "Osteoma osteoide",
+      "B": "Condroblastoma",
+      "C": "Condrosarcoma",
+      "D": "Osteosarcoma",
+      "E": "Encondroma"
+    },
+    "correct": "A",
+    "image_file": "IT0252.png",
+    "image_path": "data\\images\\image_IT0250.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0311",
+    "group": "matched",
+    "vignette": "[Un paziente di 49 anni presenta da diversi mesi in regione perineale papule roseo-brunastre talvolta confluenti in placche, asintomatiche.] Quale terapia per queste lesioni NON è indicata?",
+    "options": {
+      "A": "Terapia topica con sinecatechine",
+      "B": "Terapia topica con podofillotossina",
+      "C": "Terapia chirurgica",
+      "D": "Terapia topica con Imiquimod",
+      "E": "Terapia topica con acido salicilico e corticosteroidi"
+    },
+    "correct": "E",
+    "image_file": "IT0313.png",
+    "image_path": "data\\images\\image_IT0311.png",
+    "domain": "Dermatology"
+  },
+  {
+    "item_id": "IT0340",
+    "group": "matched",
+    "vignette": "La radiografia del torace in figura mostra un quadro che potrebbe essere pericoloso per la vita del paziente: quale?",
+    "options": {
+      "A": "Cardiomegalia estrema",
+      "B": "Emotorace sinistro",
+      "C": "Pneumotorace sinistro",
+      "D": "Stenosi tracheale",
+      "E": "Dissezione aortica"
+    },
+    "correct": "C",
+    "image_file": "IT0342.png",
+    "image_path": "data\\images\\image_IT0340.png",
+    "domain": "Emergency medicine"
+  },
+  {
+    "item_id": "IT0375",
+    "group": "wrong_both",
+    "vignette": "[Un ragazzo di 25 anni è vittima di un incidente motociclistico. Viene soccorso e trasferito presso l'ospedale più vicino; viene valutato dai medici del Pronto Soccorso che rilevano una Glasgow Coma Scale (GCS) di 8/15. Il ragazzo viene sottoposto a una TC cerebrale (si veda l'immagine).] Qual è la diagnosi più probabile?",
+    "options": {
+      "A": "Emorragia intraventricolare",
+      "B": "Ematoma sottodurale acuto",
+      "C": "Ematoma epidurale",
+      "D": "Emorragia subaracnoidea",
+      "E": "Ematoma intraparenchimale"
+    },
+    "correct": "B",
+    "image_file": "IT0375.png",
+    "image_path": "data\\images\\image_IT0375.png",
+    "domain": "Emergency medicine"
+  },
+  {
+    "item_id": "IT0390",
+    "group": "matched",
+    "vignette": "[ Un uomo di 45 anni, cadendo dallo scooter, riporta una frattura scomposta del terzo medio della diafisi omerale con il quadro radiografico in figura.]  Qual è la complicanza immediata più frequente che si potrebbe verificare con il suddetto quadro clinico-radiografico?",
+    "options": {
+      "A": "Lesione del nervo mediano",
+      "B": "Lesione dell'arteria brachiale",
+      "C": "Lesione del nervo radiale",
+      "D": "Lesione del nervo ulnare",
+      "E": "Tromboembolia polmonare"
+    },
+    "correct": "C",
+    "image_file": "IT0392.png",
+    "image_path": "data\\images\\image_IT0390.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0455",
+    "group": "unstable",
+    "vignette": "Un paziente pauci-sintomatico di 78 anni, in corso di autovalutazione della pressione arteriosa riscontra una certa irregolarità del battito.  L'ECG mostrato in figura evidenzia:",
+    "options": {
+      "A": "Ritmo sinusale con extrasistolia atriale bloccata",
+      "B": "Ritmo sinusale con blocco atrio-ventricolare di II grado tipo Mobitz 1",
+      "C": "Ritmo sinusale con blocco atrio-ventricolare di II grado tipo Mobitz 2",
+      "D": "Ritmo sinusale con blocco atrio-ventricolare avanzato",
+      "E": "Ritmo sinusale con emiblocco fascicolare"
+    },
+    "correct": "B",
+    "image_file": "IT0455.png",
+    "image_path": "data\\images\\image_IT0455.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0456",
+    "group": "matched",
+    "vignette": "Un uomo di 70 anni, iperteso e fumatore, che ha subito recentemente un intervento di prostatectomia, richiede assistenza per la comparsa di dispnea da circa 5 ore. Al  monitor del personale dell'ambulanza, la pressione arteriosa è 100/50 mmHg e la saturazione di O2 risulta pari a 88%. Viene inoltre registrato l'elettrocardiogramma  mostrato in figura.  Quale è la diagnosi più probabile?",
+    "options": {
+      "A": "Sindrome di Brugada",
+      "B": "Embolia polmonare acuta",
+      "C": "Dissecazione aortica",
+      "D": "Scompenso cardiaco in cardiomiopatia ipertensiva",
+      "E": "Anemizzazione post operatoria"
+    },
+    "correct": "B",
+    "image_file": "IT0456.png",
+    "image_path": "data\\images\\image_IT0456.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0507",
+    "group": "wrong_both",
+    "vignette": "Una donna di 77 anni in buone condizioni generali giunge in Pronto Soccorso in seguito a caduta accidentale in casa. In figura viene mostrata la radiografia del bacino e  delle anche della paziente.  Come si definisce questa frattura?",
+    "options": {
+      "A": "Frattura sottocapitata del femore sinistro",
+      "B": "Frattura pertrocantericadel femore sinistro",
+      "C": "Frattura cervico-trocanterica del femore sinistro",
+      "D": "Frattura sottotrocanterica del femore sinistro",
+      "E": "Frattura trans-cervicale del femore sinistro"
+    },
+    "correct": "A",
+    "image_file": "IT0507.png",
+    "image_path": "data\\images\\image_IT0507.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0512",
+    "group": "matched",
+    "vignette": "Un uomo di 82 anni accede in Pronto Soccorso: da alcuni giorni riferisce difficoltà nella deambulazione, avvertendo la sensazione di gamba destra \"pesante\". Da circa 2  giorni i figli hanno notato anche disturbi nell'eloquio; gli stessi riferiscono inoltre che circa 4 settimane prima il padre ha subito un trauma cranico da caduta accidentale. In  anamnesi il paziente riferisce ipertensione arteriosa in terapia medica, diabete mellito tipo II, fibrillazione atriale (in terapia con warfarin). Alla visita del neurochirurgo il  paziente presenta una afasia espressiva e un franco slivellamento dell'arto superiore e inferiore di destra alle prove antigravitarie. Viene eseguita una TC encefalo che  dimostra la presenza di una raccolta ematica a forma di semiluna, iso-ipodensa rispetto al parenchima cerebrale (vedi immagine).  Qual è la diagnosi più verosimile, considerando le immagini neuroradiologiche e la storia clinica?",
+    "options": {
+      "A": "Ematoma sottodurale cronico",
+      "B": "Emorragia intraparenchimale",
+      "C": "Emorragia subaracnoidea",
+      "D": "Ematoma sottodurale acuto",
+      "E": "Ematoma epidurale"
+    },
+    "correct": "A",
+    "image_file": "IT0512.png",
+    "image_path": "data\\images\\image_IT0512.png",
+    "domain": "Neurology"
+  },
+  {
+    "item_id": "IT0532",
+    "group": "wrong_both",
+    "vignette": "Un paziente di 67 anni, maschio, giunge all'attenzione medica per un'emicrania resistente ai trattamenti di prima linea. Ha eseguito un'indagine RM dell'encefalo.  Osservare le due immagini e indicare la risposta corretta.",
+    "options": {
+      "A": "Immagine A: sequenza T2; Immagine B: sequenza T2 con mezzo di contrasto",
+      "B": "Immagine A: sequenza T2; Immagine B: sequenza T1 con mezzo di contrasto",
+      "C": "Immagine A: sequenza T1; Immagine B: sequenza T2",
+      "D": "sequenza T2 B: Immagine A: sequenza T2: Immagine B: sequenza T1",
+      "E": "Immagine A: sequenza T1; Immagine B: sequenza T1 con mezzo di contrasto"
+    },
+    "correct": "C",
+    "image_file": "IT0532.png",
+    "image_path": "data\\images\\image_IT0532.png",
+    "domain": "Neurology"
+  },
+  {
+    "item_id": "IT0533",
+    "group": "unstable",
+    "vignette": "Un paziente di 35 anni giunge in Pronto Soccorso per dolore trafittivo all'emitorace sinistro insorto in seguito a movimento brusco, associato a dispnea. La radiografia  mostra un quadro non univoco e viene eseguita un'indagine TC.  Alla luce del quadro TC, qual è la diagnosi del paziente?",
+    "options": {
+      "A": "Pneumotorace sinistro",
+      "B": "Addensamento polmonare destro",
+      "C": "Versamento pleurico sinistro",
+      "D": "Versamento pleurico destro",
+      "E": "Pneumotorace destro"
+    },
+    "correct": "A",
+    "image_file": "IT0533.png",
+    "image_path": "data\\images\\image_IT0533.png",
+    "domain": "Emergency medicine"
+  },
+  {
+    "item_id": "IT0563",
+    "group": "unstable",
+    "vignette": "Un uomo di 56 anni, forte fumatore, giunge in Pronto Soccorso per comparsa improvvisa di dolore toracico trafittivo all'emitorace sinistro e dispnea. Viene eseguita una radiografia del torace che fornisce l'immagine seguente. Qual è la diagnosi più probabile?",
+    "options": {
+      "A": "Versamento pleurico sinistro",
+      "B": "Edema polmonare",
+      "C": "Polmonite basale sinistra",
+      "D": "Neoplasia polmonare destra",
+      "E": "Pneumotorace spontaneo sinistro"
+    },
+    "correct": "E",
+    "image_file": "IT0563.png",
+    "image_path": "data\\images\\image_IT0563.png",
+    "domain": "Emergency medicine"
+  },
+  {
+    "item_id": "IT0593",
+    "group": "matched",
+    "vignette": "Una donna di 76 anni, con pregressa tiroidite di Hashimoto e nota insufficienza mitralica moderata, asintomatica, si reca in visita cardiologica di controllo. L'elettrocardiogramma è il seguente. Qual è la diagnosi più probabile?",
+    "options": {
+      "A": "Fibrillazione atriale",
+      "B": "Segni di ischemia miocardica posteriore",
+      "C": "Flutter atriale tipico",
+      "D": "Tachicardia ventricolare sostenuta",
+      "E": "Blocco atrio-ventricolare di II grado tipo Mobitz 1"
+    },
+    "correct": "A",
+    "image_file": "IT0593.png",
+    "image_path": "data\\images\\image_IT0593.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0597",
+    "group": "matched",
+    "vignette": "Uomo di 60 anni, iperteso, dislipidemico, presenta dolore toracico, sudorazione profusa e costrizione al giugulo. Pressione arteriosa 150/90 mmHg, saturazione di ossigeno 97%. L'elettrocardiogramma è il seguente. In relazione al sospetto clinico, qual è il prossimo step diagnostico-terapeutico?",
+    "options": {
+      "A": "Angio-TC del torace con mezzo di contrasto con sequenze dedicate alle coronarie",
+      "B": "Curva del dosaggio della troponina cardiaca",
+      "C": "Dosaggio degli indici di flogosi, antigeni virali e pannello anticorpale completo",
+      "D": "Coronarografia in emergenza (<2h)",
+      "E": "Coronarografia urgente (<24h)"
+    },
+    "correct": "D",
+    "image_file": "IT0597.png",
+    "image_path": "data\\images\\image_IT0597.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0653",
+    "group": "unstable",
+    "vignette": "Un uomo di 75 anni, cardiopatico, iperteso, lamenta improvviso calo del visus in OD. Con riferimento al quadro clinico ed alla fotografia del fondo oculare sovrastante, la diagnosi più probabile è:",
+    "options": {
+      "A": "Retinopatia diabetica non proliferante",
+      "B": "Occlusione venosa centrale",
+      "C": "Occlusione venosa di branca",
+      "D": "Degenerazione maculare neovascolare legata all'età",
+      "E": "Retinite sierosa centrale"
+    },
+    "correct": "B",
+    "image_file": "IT0653.png",
+    "image_path": "data\\images\\image_IT0653.png",
+    "domain": "Ophthalmology"
+  },
+  {
+    "item_id": "IT0675",
+    "group": "matched",
+    "vignette": "Un uomo di 36 anni giunge in Pronto Soccorso per un trauma sportivo con forte dolore al mesopiede. La freccia nella radiografia dimostra una frattura, particolarmente evidente nella proiezione laterale, con piccolo distacco osseo.  Qual è l'osso interessato?",
+    "options": {
+      "A": "Scafoide del tarso (o navicolare)",
+      "B": "Cuboide",
+      "C": "Cuneiforme intermedio",
+      "D": "Cuneiforme laterale",
+      "E": "Cuneiforme mediale"
+    },
+    "correct": "A",
+    "image_file": "IT0675.png",
+    "image_path": "data\\images\\image_IT0675.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0676",
+    "group": "unstable",
+    "vignette": "Un uomo di 67 anni viene portato in Pronto Soccorso dai familiari in stato confusionale e presenta Glasgow Coma Scale pari a 11. Viene eseguita una indagine TC in urgenza che mette in evidenza il quadro riportato nell'immagine, che corrisponde a:",
+    "options": {
+      "A": "Emorragia subdurale parieto-occipitale sinistra",
+      "B": "Nessun rilievo patologico, è necessario eseguire RM",
+      "C": "Emorragia parenchimale parieto-occipitale sinistra",
+      "D": "Emorragia parenchimale parieto-occipitale destra",
+      "E": "Emorragia epidurale parieto-occipitale sinistra"
+    },
+    "correct": "C",
+    "image_file": "IT0676.png",
+    "image_path": "data\\images\\image_IT0676.png",
+    "domain": "Neurology"
+  },
+  {
+    "item_id": "IT0713",
+    "group": "matched",
+    "vignette": "Un paziente di 50 anni con anamnesi di diabete mellito si presenta con una storia di \"fastidio\" retrosternale e nausea insorti da circa 1 ora. Il suo ECG è riportato in ﬁgura. Qual è l’intervento più appropriato da mettere in atto per questo paziente?",
+    "options": {
+      "A": "Ricoverarlo in un letto cardiologico monitorato per ripetere ECG e troponina",
+      "B": "Iniziare trattamento con aspirina e dimettere con follow-up cardiologico entro 1 settimana",
+      "C": "Coronarograﬁa ed eventuale angioplastica coronarica",
+      "D": "Monitorare e osservare nel Pronto Soccorso con ECG seriati",
+      "E": "Indagare per cause non cardiache di dolore toracico"
+    },
+    "correct": "C",
+    "image_file": "IT0713.png",
+    "image_path": "data\\images\\image_IT0713.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0783",
+    "group": "matched",
+    "vignette": "Un uomo di 38 anni riferisce tumefazione e dolore ingravescenti in corrispondenza del  polso sinistro da circa 8 mesi. È stato sottoposto a esame radiograﬁco (vedi immagine)  ed esame bioptico, che consentono di porre diagnosi di tumore a cellule giganti  dell’osso. Qual è il trattamento iniziale più appropriato per questo paziente?",
+    "options": {
+      "A": "Chemioterapia neo-adiuvante, radioterapia e resezione ampia",
+      "B": "Radioterapia e resezione ampia",
+      "C": "Chemioterapia neo-adiuvante, resezione radicale e chemioterapia adiuvante",
+      "D": "Svuotamento, applicazione di adiuvanti locali ed innesti ossei o cemento",
+      "E": "Amputazione"
+    },
+    "correct": "D",
+    "image_file": "IT0783.png",
+    "image_path": "data\\images\\image_IT0783.png",
+    "domain": "Oncology"
+  },
+  {
+    "item_id": "IT0784",
+    "group": "wrong_both",
+    "vignette": "Un bambino di 10 anni riferisce l’insorgenza di dolore dopo un trauma alla spalla destra  riportato durante una partita di calcio. I genitori negano precedenti dolori o traumi alla  stessa spalla. La radiograﬁa è mostrata nella ﬁgura. Qual è la diagnosi più probabile fra  le seguenti?",
+    "options": {
+      "A": "Cisti ossea giovanile",
+      "B": "Frattura della clavicola",
+      "C": "Sarcoma di Ewing",
+      "D": "Distacco epiﬁsario prossimale dell’omero",
+      "E": "Condrosarcoma"
+    },
+    "correct": "A",
+    "image_file": "IT0784.png",
+    "image_path": "data\\images\\image_IT0784.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0785",
+    "group": "matched",
+    "vignette": "Un pallavolista di 22 anni si presenta con dolore acuto al ginocchio sinistro e modica  tumefazione articolare in seguito a un trauma distorsivo riportato dopo un salto.  Riferisce sensazione di blocco del ginocchio e l’esame dell’articolarità mostra un arco di  movimento compreso tra i 20 e i 90 gradi. La ﬁgura A mostra un’immagine artroscopica  del compartimento antero-mediale del ginocchio e la Figura B un’immagine della RM.  Quale delle seguenti diagnosi è la più probabile?",
+    "options": {
+      "A": "Lesione osteo-condrale del condilo femorale interno",
+      "B": "Lesione del legamento crociato anteriore",
+      "C": "Frattura del piatto tibiale interno",
+      "D": "Lesione del legamento crociato posteriore",
+      "E": "Lesione a manico di secchio del menisco mediale"
+    },
+    "correct": "E",
+    "image_file": "IT0785.png",
+    "image_path": "data\\images\\image_IT0785.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0860",
+    "group": "matched",
+    "vignette": "Un uomo di 43 anni da un anno circa lamenta frequenti rigurgiti post-prandiali e notturni associati a disfagia ingravescente. Riferisce saltuario dolore toracico con valutazione cardiologica negativa. Esegue esofago-gastro-duodenoscopia negativa per lesioni neoplastiche ed esofagografia con contrasto per os di cui si allega il radiogramma. Alla luce dei reperti anamnestici e della radiografia quale è la diagnosi più verosimile tra le seguenti?",
+    "options": {
+      "A": "GIST del fondo gastrico",
+      "B": "Acalasia",
+      "C": "Ernia iatale sintomatica",
+      "D": "Malattia da reflusso gastroesofageo",
+      "E": "Diverticolo epifrenico"
+    },
+    "correct": "B",
+    "image_file": "IT0860.png",
+    "image_path": "data\\images\\image_IT0860.png",
+    "domain": "Gastroenterology"
+  },
+  {
+    "item_id": "IT0861",
+    "group": "matched",
+    "vignette": "Paziente di 39 anni giunge in Pronto Soccorso per dolore toracico anteriore sinistro intensificato dagli atti respiratori. Alla valutazione clinica viene riscontrata tachipnea con 34 atti respiratori/minuto. All’esame obiettivo riduzione del murmure vescicolare sinistro. EGA (in area ambiente): pH 50, PaO2 62 mmHg, PaCO2 28 mmHg. Esegue RX del torace di cui si allega il radiogramma. Il quadro clinico, radiologico e emogasanalitico orienta per:",
+    "options": {
+      "A": "Pneumotorace massivo sinistro meritevole di drenaggio toracico urgente",
+      "B": "Esteso focolaio bronco pneumonico sinistro meritevole di terapia antibiotica",
+      "C": "Pneumotorace apicale sinistro meritevole di monitoraggio clinico strumentale",
+      "D": "Versamento pleurico massivo sinistro meritevole di drenaggio toracico urgente",
+      "E": "Severo quadro di scompenso cardiaco con edema polmonare meritevole di inquadramento e trattamento cardiologico urgente"
+    },
+    "correct": "A",
+    "image_file": "IT0861.png",
+    "image_path": "data\\images\\image_IT0861.png",
+    "domain": "Pulmonology"
+  },
+  {
+    "item_id": "IT0890",
+    "group": "matched",
+    "vignette": "Giunge in ambulatorio un uomo di 32 anni con prurito diffuso senza interessamento del capo presente da due settimane. Riferisce che il prurito è più accentuato nelle ore notturne. Alla valutazione clinica sono presenti papule, alcune escoriate, e lesioni da grattamento. Alla faccia laterale del secondo dito di una mano si osservano lesioni lineari di circa un centimetro di lunghezza con una piccola papula ad una estremità. Quale tra le seguenti è la prima patologia che si deve sospettare?",
+    "options": {
+      "A": "Pediculosi",
+      "B": "Orticaria",
+      "C": "Pemfigoide bolloso",
+      "D": "Leishmaniosi cutanea",
+      "E": "Scabbia"
+    },
+    "correct": "E",
+    "image_file": "IT0890.png",
+    "image_path": "data\\images\\image_IT0890.png",
+    "domain": "Infectious diseases"
+  },
+  {
+    "item_id": "IT0891",
+    "group": "matched",
+    "vignette": "Giunge al reparto di dermatologia una paziente di 60 anni con eruzione maculo-papulosa morbilliforme diffusa, edema del volto, intenso prurito e febbre elevata. Tre settimane prima aveva iniziato un trattamento con allopurinolo. Si eseguono esami ematici con riscontro di ipereosinofilia (2000/mm3), linfociti atipici (più del 5%), aumento di transaminasi, lipasi e amilasi. Il quadro clinico è compatibile con:",
+    "options": {
+      "A": "Symmetrical Drug-Related Intertriginous and Flexural Exanthema (SDRIFE)",
+      "B": "Dermatite livedoide di Nicolau",
+      "C": "Drug Rash with Eosinophilia and Systemic Symptoms (DRESS)",
+      "D": "Acute Generalized Esantematic Pustolosis (AGEP)",
+      "E": "Sindrome di Sezary"
+    },
+    "correct": "C",
+    "image_file": "IT0891.png",
+    "image_path": "data\\images\\image_IT0891.png",
+    "domain": "Dermatology"
+  },
+  {
+    "item_id": "IT0892",
+    "group": "matched",
+    "vignette": "Allo striscio di sangue periferico si osserva questa morfologia eritrocitaria con schistociti. Il quadro è indicativo di:",
+    "options": {
+      "A": "Drepanocitosi",
+      "B": "Anemia emolitica autoimmune",
+      "C": "Ellissocitosi",
+      "D": "Macro-ovalocitosi",
+      "E": "Microangiopatia trombotica"
+    },
+    "correct": "E",
+    "image_file": "IT0892.png",
+    "image_path": "data\\images\\image_IT0892.png",
+    "domain": "Hematology"
+  },
+  {
+    "item_id": "IT0908",
+    "group": "unstable",
+    "vignette": "Un paziente di 85 anni giunge all’ambulatorio di Endoscopia Digestiva per eseguire una esofagogastroduodenoscopia (EGDS) in seguito a riferita emissione di feci scure con riscontro agli esami ematochimici di anemia (Hb:8 g/dL) ipocromica microcitica. L’EGDS mostra in sede antrale il quadro riportato. Qual è la diagnosi endoscopica di quanto osservato?",
+    "options": {
+      "A": "Ulcera gastrica antrale tipo Forrest IIc",
+      "B": "Polipo iperplastico",
+      "C": "Ulcera gastrica antrale tipo Forrest I",
+      "D": "Ulcera gastrica antrale tipo Forrest III",
+      "E": "Singola formazione diverticolare dell’antro gastrico"
+    },
+    "correct": "A",
+    "image_file": "IT0908.png",
+    "image_path": "data\\images\\image_IT0908.png",
+    "domain": "Gastroenterology"
+  },
+  {
+    "item_id": "IT0919",
+    "group": "matched",
+    "vignette": "Un paziente di 56 anni si presenta in Pronto Soccorso con dolore diffuso in zona epigastrica. Appare ansioso, agitato, in cerca di una posizione per alleviare il dolore. Sono presenti sudorazione profusa, bradicardia, extrasistoli. L’accompagnatore ha riferito che il paziente accusava nausea e ha avuto 2 episodi di vomito alimentare circa 40 minuti prima. Si procede all’effettuazione di un ECG, emocromo, dosaggio enzimi specifici (Troponina, CPK, SGOT, LDH), RX torace, ecocardiogramma ed eco addome. Sono presenti leucocitosi ed iperglicemia. Si rimane in attesa del referto di enzimi specifici. Il referto dell’ECG è il seguente. Alla luce del quadro clinico ed elettrocardiografico, quale tra le seguenti è la diagnosi più probabile?",
+    "options": {
+      "A": "Pericardite acuta",
+      "B": "Blocco di branca dx",
+      "C": "ECG nella norma",
+      "D": "NSTEMI",
+      "E": "STEMI"
+    },
+    "correct": "E",
+    "image_file": "IT0919.png",
+    "image_path": "data\\images\\image_IT0919.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0949",
+    "group": "matched",
+    "vignette": "Una paziente di 56 anni è affetta da carcinoma squamocellulare della cervice uterina, inoperabile per estesa infiltrazione dei paramétri. Il trattamento programmato consiste in una chemioradioterapia. La radioterapia è effettuata con irradiazione della regione pelvica seguita dal posizionamento nella vagina e nell’utero di un applicatore caricato con sorgenti di iridio 192, come riportato in figura. Come si definisce quest’ultima tecnica di trattamento?",
+    "options": {
+      "A": "Brachiterapia interstiziale",
+      "B": "Radioterapia esterna",
+      "C": "Radio-immunoterapia",
+      "D": "Radioterapia intraoperatoria",
+      "E": "Brachiterapia intracavitaria"
+    },
+    "correct": "E",
+    "image_file": "IT0949.png",
+    "image_path": "data\\images\\image_IT0949.png",
+    "domain": "Oncology"
+  },
+  {
+    "item_id": "IT0972",
+    "group": "matched",
+    "vignette": "Una donna di 32 anni, si reca in Pronto Soccorso per cardiopalmo. APR negativa. All’esame obiettivo: GCS 15/15, SpO2 99% in aria ambiente, FR 29 minuto, PA 110/65 mmHg, FC 180 bpm. L’ECG mostra il seguente tracciato: tachicardia parossistica sopraventricolare da rientro nodale. Alla luce del quadro ECG e dei parametri vitali quale tra i seguenti è l’intervento terapeutico più appropriato?",
+    "options": {
+      "A": "Atropina ev",
+      "B": "Isoproterenolo ev",
+      "C": "Cardioversione elettrica sincronizzata",
+      "D": "KCl ev",
+      "E": "Adenosina ev"
+    },
+    "correct": "E",
+    "image_file": "IT0972.png",
+    "image_path": "data\\images\\image_IT0972.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT1022",
+    "group": "matched",
+    "vignette": "Un uomo di 73 anni, seguito per un pregresso melanoma del dorso, presenta ad un controllo programmato una neoformazione della regione sottoclavicolare destra, nettamente aumentata dall’ultimo controllo, di circa 3 cm di diametro, rilevata, di colore marrone chiaro, ruvida al tatto. Sono presenti altre neoformazioni simili, di diametro minore, sia a livello del torace che del collo. Alla dermatoscopia si apprezzano sbocchi follicolari simil-comedonici e pseudo-cisti cornee. Quale diagnosi suggeriscono la clinica e la dermatoscopia?",
+    "options": {
+      "A": "Melanoma",
+      "B": "Carcinoma a cellule basali",
+      "C": "Nevo displastico",
+      "D": "Cheratosi seborroica pigmentata",
+      "E": "Carcinoma a cellule squamose"
+    },
+    "correct": "D",
+    "image_file": "IT1022.png",
+    "image_path": "data\\images\\image_IT1022.png",
+    "domain": "Dermatology"
+  },
+  {
+    "item_id": "IT1023",
+    "group": "matched",
+    "vignette": "Maschio di 40 anni, celiaco, si presenta all’osservazione con un’eruzione papulo-vescicolosa, simmetrica che si localizza preferenzialmente alle superfici estensorie degli arti. Il paziente riferisce intenso prurito e bruciore per il quale non ha trovato giovamento da una terapia con antistaminico per os prescritta dal Medico di Medicina Generale. Il segno di Nikolski è assente. Agli esami ematici si riscontrano anticorpi IgA anti-transglutaminasi epidermica (TG3) e anti-transglutaminasi tessutale a basso titolo. Viene eseguita una biopsia della cute che evidenzia uno scollamento dermo-epidermico alla microscopia ottica e, all’immunofluorescenza diretta, depositi granulari di IgA situati all'apice delle papille dermiche. Quale tra le seguenti è la diagnosi più probabile?",
+    "options": {
+      "A": "Dermatite erpetiforme",
+      "B": "Dermatosi a IgA lineare",
+      "C": "Pemfigo volgare",
+      "D": "Scabbia bollosa",
+      "E": "Pemfigoide bolloso di Lever"
+    },
+    "correct": "A",
+    "image_file": "IT1023.png",
+    "image_path": "data\\images\\image_IT1023.png",
+    "domain": "Dermatology"
+  },
+  {
+    "item_id": "IT1044",
+    "group": "matched",
+    "vignette": "Una signora di 67 anni con storia di dispnea da sforzo, mai indagata in precedenza e mai sottoposta ad intervento chirurgico toracico, esegue spirometria. Sulla base dei risultati di seguito riportati quale sindrome disventilatoria è più probabile tra le seguenti?",
+    "options": {
+      "A": "Volumi polmonari statici nei limiti di norma",
+      "B": "Volumi polmonari dinamici aumentati",
+      "C": "Sindrome disventilatoria di tipo restrittivo",
+      "D": "Sindrome disventilatoria ostruttiva reversibile",
+      "E": "Iperresponsività bronchiale"
+    },
+    "correct": "C",
+    "image_file": "IT1044.png",
+    "image_path": "data\\images\\image_IT1044.png",
+    "domain": "Pulmonology"
+  },
+  {
+    "item_id": "IT1053",
+    "group": "matched",
+    "vignette": "Una paziente di 68 anni, con storia di ipertensione arteriosa e ipercolesterolemia in buon compenso farmacologico con ACE inibitore e statina, riferisce da alcuni giorni debolezza, cefalea e vertigini. Viene eseguito un ECG il cui tracciato è riportato qui di seguito. Quale tra i seguenti è il trattamento più adeguato?",
+    "options": {
+      "A": "Cardioversione sincronizzata",
+      "B": "Terapia con midodrina",
+      "C": "Impianto di pacemaker",
+      "D": "Sospensione ACE inibitore",
+      "E": "Defibrillazione"
+    },
+    "correct": "C",
+    "image_file": "IT1053.png",
+    "image_path": "data\\images\\image_IT1053.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT1100",
+    "group": "unstable",
+    "vignette": "La tabella sottostante espone i risultati di uno studio caso-controllo. Quale tra i seguenti è il calcolo corretto per quantificare l’associazione tra la malattia e il fattore di rischio?",
+    "options": {
+      "A": "Rischio Relativo: (150/400) / (250/100)",
+      "B": "Rischio Relativo: (150*250) / (100*400)",
+      "C": "Rischio Attribuibile: (250-100) / 900",
+      "D": "Odds Ratio: (250*400) / (150*100)",
+      "E": "Odds Ratio: (150*400) / (250*100)"
+    },
+    "correct": "D",
+    "image_file": "IT1100.png",
+    "image_path": "data\\images\\image_IT1100.png",
+    "domain": "Medical toxicology"
+  },
+  {
+    "item_id": "IT1113",
+    "group": "wrong_both",
+    "vignette": "Una donna di 73 anni giunge in Pronto Soccorso per dispnea e dolore toracico che peggiora durante la respirazione. Esegue Rx torace ed un approfondimento mediante TC torace con mdc. Qual è la diagnosi più probabile in base ai reperti mostrati negli studi di imaging?",
+    "options": {
+      "A": "Miocardite acuta",
+      "B": "Embolia polmonare acuta",
+      "C": "Versamento pericardico",
+      "D": "Infarto miocardico acuto",
+      "E": "Dissezione dell’aorta toracica"
+    },
+    "correct": "C",
+    "image_file": "IT1113.png",
+    "image_path": "data\\images\\image_IT1113.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT1114",
+    "group": "wrong_both",
+    "vignette": "Donna di 45 anni giunge in Pronto Soccorso per dolore toracico e dispnea. Viene eseguito uno studio angioTC con mdc del torace. L’immagine riportata mostra lo studio visualizzato con finestra per mediastino. Qual è la diagnosi più probabile fra le seguenti?",
+    "options": {
+      "A": "Embolia polmonare",
+      "B": "Timoma emorragico",
+      "C": "Secondarismi polmonari multipli",
+      "D": "Sindrome della vena cava superiore",
+      "E": "Dissezione aortica"
+    },
+    "correct": "A",
+    "image_file": "IT1114.png",
+    "image_path": "data\\images\\image_IT1114.png",
+    "domain": "Pulmonology"
+  },
+  {
+    "item_id": "IT1118",
+    "group": "matched",
+    "vignette": "Donna di 87 anni viene condotta in Pronto Soccorso in stato confusionale. La figlia riferisce caduta accidentale in casa con trauma cranico tre giorni prima. Esegue TC Cranio senza mdc che evidenzia un ematoma subdurale destro. Quale dei seguenti aspetti di imaging è tipico dell’ematoma subdurale?",
+    "options": {
+      "A": "Aspetto “a sole radiante”",
+      "B": "Aspetto a “lente biconcava”",
+      "C": "Aspetto a “sale e pepe”",
+      "D": "Aspetto “a falce”",
+      "E": "Aspetto a “lente biconvessa”"
+    },
+    "correct": "D",
+    "image_file": "IT1118.png",
+    "image_path": "data\\images\\image_IT1118.png",
+    "domain": "Neurology"
+  }
+]

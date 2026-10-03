@@ -1,0 +1,66 @@
+[
+  {
+    "item_id": "IT0006",
+    "group": "grounded",
+    "vignette": "L'immagine mostra un tracciato elettrocardiografico corrispondente a:",
+    "options": {
+      "A": "Infarto miocardico della parete posteriore",
+      "B": "Fibrillazione atriale",
+      "C": "Infarto miocardico della parete anteriore",
+      "D": "Infarto miocardico della parete inferiore",
+      "E": "Blocco atrioventricolare di terzo grado"
+    },
+    "correct": "C",
+    "image_file": "IT0006.PNG",
+    "image_path": "data\\images\\image_IT0006.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0007",
+    "group": "grounded",
+    "vignette": "Il paziente presenterà probabilmente:",
+    "options": {
+      "A": "Occlusione della circonflessa",
+      "B": "Sintomi da attivazione vagale",
+      "C": "Occlusione della discendente anteriore",
+      "D": "Occlusione della discendente posteriore",
+      "E": "Pneumotorace"
+    },
+    "correct": "C",
+    "image_file": "IT0006.PNG",
+    "image_path": "data\\images\\image_IT0007.png",
+    "domain": "Cardiology"
+  },
+  {
+    "item_id": "IT0130",
+    "group": "grounded",
+    "vignette": "[Paziente di 45 anni esegue indagine Risonanza Magnetica della colonna lombare per lombalgia da 2 mesi non responsiva ai farmaci antifiammatori.] L'immagine mostra una RM del rachide lombare su quale dei tre piani anatomici?",
+    "options": {
+      "A": "Piano sagittale puro",
+      "B": "Piano coronale puro",
+      "C": "Piano assiale puro",
+      "D": "Piano sagittale obliquo per lo studio dei peduncoli",
+      "E": "Piano sagittale obliquo per lo studio dei forami di coniugazione"
+    },
+    "correct": "A",
+    "image_file": "IT130.png",
+    "image_path": "data\\images\\image_IT0130.png",
+    "domain": "Orthopedics"
+  },
+  {
+    "item_id": "IT0213",
+    "group": "grounded",
+    "vignette": "[Un medico di Pronto Soccorso sta valutando un uomo di 54 anni che lamenta dolore retrosternale.] Il dolore non migliora e improvvisamente il paziente perde coscienza. Nella figura il ritmo presente a monitor è:",
+    "options": {
+      "A": "Tachicardia sopraventricolare",
+      "B": "Tachicardia ventricolare polimorfa",
+      "C": "Tachicardia ventricolare monomorfa",
+      "D": "Fibrillazione atriale",
+      "E": "Fibrillazione ventricolare"
+    },
+    "correct": "B",
+    "image_file": "IT0215.png",
+    "image_path": "data\\images\\image_IT0213.png",
+    "domain": "Cardiology"
+  }
+]

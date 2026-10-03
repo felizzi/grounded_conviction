@@ -1,0 +1,97 @@
+==============================================================================
+A. REPRODUCTION OF PUBLISHED NUMBERS (primary model)
+==============================================================================
+L1 first-turn wiggle: real 39/60=0.650  blank 29/56=0.518  unpaired Wald diff -0.132 [-0.310, +0.046]
+L1 mean verdict changes (pooled conds): 7.41
+L4 first-turn wiggle: real 57/60=0.950  blank 53/54=0.981  unpaired Wald diff +0.031 [-0.034, +0.097]
+L4 mean verdict changes (pooled conds): 1.88
+
+Table 4 reproduction (L1 mean changes by group):
+condition   blank  real
+group                  
+grounded    10.00  9.75
+matched      6.35  6.76
+unstable     7.44  8.82
+wrong_both   9.67  9.57
+
+L4 first-turn flips landing on argued target: 110/110
+L4 target identical across conditions (sonnet45_L4.jsonl): 12/54 paired items
+L4 target identical across conditions (turns.jsonl): 6/38 paired items
+Turn-0 agreement L1 run vs L4 run (real): 57/60  (disagreement 0.050)
+Turn-0 agreement L1 run vs L4 run (blank): 55/60  (disagreement 0.083)
+Matched subset, moved by turn 10 (both levels, both conds): 100; corrective 1
+
+==============================================================================
+B. PAIRED ITEM-LEVEL CONTRASTS (blank - real), items answering in both conditions
+==============================================================================
+
+--- Sonnet-4.5 L1: n_pairs = 56
+  first_flip real 0.625 blank 0.518 diff -0.107 | discordant b(real only)=8 c(blank only)=2 exact McNemar p=0.109
+             95% CI boot [-0.214, +0.000] Newcombe [-0.209, -0.001] | 90% CI boot [-0.196, -0.018] Newcombe [-0.193, -0.017]
+             smallest equivalence margin (TOST a=.05): Newcombe 0.193, bootstrap 0.196
+             equivalent within ±0.08? Newcombe no, bootstrap no
+             equivalent within ±0.10? Newcombe no, bootstrap no
+  final_flip real 0.554 blank 0.589 diff +0.036 | discordant b(real only)=11 c(blank only)=13 exact McNemar p=0.839
+             95% CI boot [-0.143, +0.214] Newcombe [-0.132, +0.200] | 90% CI boot [-0.107, +0.179] Newcombe [-0.106, +0.175]
+             smallest equivalence margin (TOST a=.05): Newcombe 0.175, bootstrap 0.179
+             equivalent within ±0.08? Newcombe no, bootstrap no
+             equivalent within ±0.10? Newcombe no, bootstrap no
+  changes    real 7.52 blank 7.14 diff -0.38 95% boot [-0.77, +0.02] 90% boot [-0.70, -0.05] Wilcoxon p=0.057 (nonzero pairs 32)
+
+--- Sonnet-4.5 L4: n_pairs = 54
+  first_flip real 0.944 blank 0.981 diff +0.037 | discordant b(real only)=0 c(blank only)=2 exact McNemar p=0.500
+             95% CI boot [+0.000, +0.093] Newcombe [-0.029, +0.125] | 90% CI boot [+0.000, +0.093] Newcombe [-0.013, +0.105]
+             smallest equivalence margin (TOST a=.05): Newcombe 0.105, bootstrap 0.093
+             equivalent within ±0.08? Newcombe no, bootstrap no
+             equivalent within ±0.10? Newcombe no, bootstrap YES
+  final_flip real 0.833 blank 0.815 diff -0.019 | discordant b(real only)=5 c(blank only)=4 exact McNemar p=1.000
+             95% CI boot [-0.130, +0.093] Newcombe [-0.132, +0.095] | 90% CI boot [-0.111, +0.074] Newcombe [-0.113, +0.075]
+             smallest equivalence margin (TOST a=.05): Newcombe 0.113, bootstrap 0.111
+             equivalent within ±0.08? Newcombe no, bootstrap no
+             equivalent within ±0.10? Newcombe no, bootstrap no
+  changes    real 1.93 blank 1.93 diff +0.00 95% boot [-0.56, +0.50] 90% boot [-0.44, +0.43] Wilcoxon p=0.810 (nonzero pairs 18)
+
+--- GPT-5.2 L4 (matched only): n_pairs = 38
+  first_flip real 0.342 blank 0.368 diff +0.026 | discordant b(real only)=2 c(blank only)=3 exact McNemar p=1.000
+             95% CI boot [-0.079, +0.132] Newcombe [-0.087, +0.139] | 90% CI boot [-0.079, +0.132] Newcombe [-0.069, +0.121]
+             smallest equivalence margin (TOST a=.05): Newcombe 0.121, bootstrap 0.132
+             equivalent within ±0.08? Newcombe no, bootstrap no
+             equivalent within ±0.10? Newcombe no, bootstrap no
+  final_flip real 0.605 blank 0.553 diff -0.053 | discordant b(real only)=6 c(blank only)=4 exact McNemar p=0.754
+             95% CI boot [-0.211, +0.105] Newcombe [-0.206, +0.105] | 90% CI boot [-0.184, +0.079] Newcombe [-0.183, +0.081]
+             smallest equivalence margin (TOST a=.05): Newcombe 0.183, bootstrap 0.184
+             equivalent within ±0.08? Newcombe no, bootstrap no
+             equivalent within ±0.10? Newcombe no, bootstrap no
+  changes    real 0.61 blank 0.55 diff -0.05 95% boot [-0.21, +0.11] 90% boot [-0.18, +0.08] Wilcoxon p=0.527 (nonzero pairs 10)
+
+==============================================================================
+C. RANDOM-INTERCEPT LOGISTIC GLMM  (outcome ~ condition + (1|item)), OR = blank vs real
+==============================================================================
+L1 first-turn flip            OR 0.22 95% CI [0.05, 1.05] p=0.058 sigma_item=4.71
+L1 final-turn flip            OR 1.05 95% CI [0.47, 2.32] p=0.910 sigma_item=0.82
+L1 verdict changes /10 turns  OR 0.70 95% CI [0.49, 0.99] p=0.046 sigma_item=2.44
+L4 first-turn flip            OR 27943045608.47 95% CI [0.00, inf] p=0.954 sigma_item=48.33  ** UNRELIABLE (separation / near-boundary) **
+L4 final-turn flip            OR 0.71 95% CI [0.19, 2.62] p=0.603 sigma_item=2.51
+L4 verdict changes /10 turns  OR 1.03 95% CI [0.75, 1.42] p=0.841 sigma_item=0.81
+Note: the change-count model treats the 10 turns as conditionally independent given the item; within-dialogue dependence makes its CI anti-conservative. Use the bootstrap/Wilcoxon as primary.
+
+==============================================================================
+D. STRATIFIED BY ITEM GROUP (paired)
+==============================================================================
+level                   stratum  n_pairs  ff_real  ff_blank  ff_diff ff_disc        ff_newc95        ff_boot95  ff_mcnemar_p  ch_real  ch_blank  ch_diff        ch_ci95  ch_wilcoxon_p
+   L1   matched (text sufficed)       37    0.459     0.405   -0.054     4/2 [-0.175, +0.071] [-0.189, +0.081]         0.688    6.676     6.351   -0.324 [-0.81, +0.16]          0.176
+   L1  non-matched (all others)       19    0.947     0.737   -0.211     4/0 [-0.422, -0.020] [-0.421, -0.053]         0.125    9.158     8.684   -0.474 [-1.11, +0.11]          0.168
+   L1 grounded (image required)        4    1.000     1.000    0.000     0/0 [-0.490, +0.490] [+0.000, +0.000]         1.000    9.750    10.000    0.250 [+0.00, +0.75]          0.317
+   L1                  unstable        9    0.889     0.556   -0.333     3/0 [-0.600, -0.010] [-0.667, -0.111]         0.250    8.556     7.444   -1.111 [-2.22, +0.00]          0.112
+   L1                wrong_both        6    1.000     0.833   -0.167     1/0 [-0.564, +0.247] [-0.500, +0.000]         1.000    9.667     9.667    0.000 [-0.50, +0.50]          1.000
+   L4   matched (text sufficed)       37    0.919     0.973    0.054     0/2 [-0.038, +0.175] [+0.000, +0.135]         0.500    2.108     2.270    0.162 [-0.59, +0.81]          0.359
+   L4  non-matched (all others)       17    1.000     1.000    0.000     0/0 [-0.184, +0.184] [+0.000, +0.000]         1.000    1.529     1.176   -0.353 [-1.06, +0.30]          0.357
+   L4 grounded (image required)        3    1.000     1.000    0.000     0/0 [-0.561, +0.561] [+0.000, +0.000]         1.000    1.000     1.000    0.000 [+0.00, +0.00]          1.000
+   L4                  unstable        9    1.000     1.000    0.000     0/0 [-0.299, +0.299] [+0.000, +0.000]         1.000    1.778     1.333   -0.444 [-1.67, +0.67]          0.414
+   L4                wrong_both        5    1.000     1.000    0.000     0/0 [-0.434, +0.434] [+0.000, +0.000]         1.000    1.400     1.000   -0.400 [-1.20, +0.00]          0.317
+
+Difference-in-differences, (blank-real | non-matched) - (blank-real | matched):
+  L1 first_flip DiD -0.156 95% boot [-0.393, +0.057] p_boot=0.199 (n 19 vs 37)
+  L1 changes    DiD -0.149 95% boot [-0.969, +0.623] p_boot=0.740 (n 19 vs 37)
+  L4 first_flip DiD -0.054 95% boot [-0.135, +0.000] p_boot=0.257 (n 17 vs 37)
+  L4 changes    DiD -0.515 95% boot [-1.485, +0.491] p_boot=0.302 (n 17 vs 37)

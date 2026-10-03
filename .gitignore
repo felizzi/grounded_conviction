@@ -1,0 +1,40 @@
+# ---- Images: never committed (exam figures are not ours to redistribute) ----
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+*.dcm
+*.heic
+images/
+img/
+blank_images/
+placeholders/
+
+# ---- LaTeX build files ----
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# ---- Python / OS ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
